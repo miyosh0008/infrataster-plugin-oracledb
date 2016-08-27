@@ -1,5 +1,7 @@
 # infrataster-plugin-oracledb
 
+[![Gem Version](https://badge.fury.io/rb/infrataster-plugin-oracledb.svg)](https://badge.fury.io/rb/infrataster-plugin-oracledb)
+
 Oracle Database plugin for [Infrataster](https://github.com/ryotarai/infrataster)
 
 ## Installation
