@@ -7,7 +7,8 @@ Oracle Database plugin for [Infrataster](https://github.com/ryotarai/infrataster
 ## Installation
 
 Requires:
-- [ruby-oci8](https://github.com/kubo/ruby-oci8)
+- [Oracle Instant Client](http://www.oracle.com/technetwork/database/features/instant-client/index.html)
+- [ruby-oci8](https://github.com/kubo/ruby-oci8)  
 
 Add this line to your Gemfile:
 
