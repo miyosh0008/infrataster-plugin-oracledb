@@ -41,3 +41,9 @@ Infrataster::Server.define(
   oracledb: {user: 'system', password: 'oracle', service_name: 'orcl'},
 )
 ```
+
+## Presentations
+
+ - [DBA だってもっと効率化したい！〜最近の自動化事情と Oracle Database〜]
+
+[DBA だってもっと効率化したい！〜最近の自動化事情と Oracle Database〜]: http://www.slideshare.net/MichitoshiYoshida1/dba-oracle-database "DBA だってもっと効率化したい！〜最近の自動化事情と Oracle Database〜"
