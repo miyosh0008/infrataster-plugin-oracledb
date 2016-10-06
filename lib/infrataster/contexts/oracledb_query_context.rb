@@ -15,10 +15,19 @@ module Infrataster
         end
 
         server.forward_port(options[:port]) do |address, new_port|
-          conn = OCI8.new(
-            options[:user], options[:password],
-            "//#{address}:#{new_port}/#{options[:service_name]}"
-          )
+          if options.has_key?(:privilege) then
+            conn = OCI8.new(
+              options[:user], options[:password],
+              "//#{address}:#{new_port}/#{options[:service_name]}",
+              options[:privilege]
+            )
+          else
+            conn = OCI8.new(
+              options[:user], options[:password],
+              "//#{address}:#{new_port}/#{options[:service_name]}"
+            )
+          end
+
           cursor = conn.parse(resource.query)
           cursor.exec()
 
