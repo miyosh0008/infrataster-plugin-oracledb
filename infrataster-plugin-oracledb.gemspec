@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
   spec.name          = "infrataster-plugin-oracledb"
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ["Michitoshi Yoshida"]
   spec.email         = ["miyosh0008@gmail.com"]
   spec.summary       = %q{Oracle Database plugin for Infrataster}
